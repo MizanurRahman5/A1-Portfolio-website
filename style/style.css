@@ -105,11 +105,6 @@ body{
     opacity: 0.7;
     text-align: center;
 }
-.banner-btn {
-    color: rgb(255, 255, 255);
-    background-color: rgb(13, 19, 33);
-    margin: 30px 0 44px;
-}
 
 /* web development section Style */
 
@@ -120,6 +115,20 @@ body{
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     
+}
+.banner-btn{
+    margin: 32px 0 44px;
+border-radius: 8px;
+padding: 21px 24px 21px 24px;
+background: rgb(13, 19, 33);
+}
+.banner-btn a{
+ color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+
+text-decoration: none;
 }
 .web-dev-section .container{
     max-width: 1258px;
@@ -303,6 +312,7 @@ background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0)
 
 /* my next target section style */
 .my-next-target-section {
+    max-width: 1516px;
     display: flex;
     margin: 0 auto 25px;
     flex-direction: column;
@@ -341,4 +351,73 @@ background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0)
     padding: 40px;
     border-radius: 16px;
     background: rgb(255, 255, 255);
+}
+
+
+/* upport section style */
+#support {
+    max-width: 1516px;
+    background-image: url('../assets/handshake.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 80px;
+    border-radius: 16px;
+    padding: 64px 48px 64px 48px;
+}
+.support-title {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.support-description {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 16px 0 24px;
+}
+input[type="search"] {
+    width: 548px;
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 19px 20px 19px 20px;
+    line-height: 19px;
+}
+input[type="submit"] {
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    cursor: pointer;
+    padding: 17px 20px 17px 20px;
+}
+.media-section{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.media-content{
+    max-width: 1516px;
+    margin: auto;
+    padding: 32px 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+   
+}
+.media-icon img{
+    margin-left: 24px;
 }
