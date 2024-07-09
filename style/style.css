@@ -211,7 +211,7 @@ background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0)
 }
 
 
-/* My My Inspiration style */
+/* My Inspiration section style */
 
 .my-inspiration-section{
     text-align: center;
@@ -234,6 +234,14 @@ background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0)
     margin: 24px 0 48px;
     opacity: 0.7;
 
+}
+.description{
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0 48px;
+    opacity: 0.7;
 }
 .inspiration-video iframe{
     width: 1516px;
@@ -309,7 +317,6 @@ background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0)
     width: 56px;
 }
 
-
 /* my next target section style */
 .my-next-target-section {
     max-width: 1516px;
@@ -353,11 +360,10 @@ background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0)
     background: rgb(255, 255, 255);
 }
 
-
-/* upport section style */
+/* footer section style */
 #support {
     max-width: 1516px;
-    background-image: url('../assets/handshake.jpg');
+    background-image: linear-gradient(188.00deg, rgb(52, 52, 52) -19.5%, rgba(248, 248, 248, 0.123) 100%), url('../assets/handshake.jpg');
     background-position: center;
     background-size: cover;
     display: flex;
@@ -374,7 +380,6 @@ background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0)
     font-weight: 700;
     line-height: 36px;
 }
-
 .support-description {
     color: rgb(255, 255, 255);
     font-size: 16px;
@@ -416,7 +421,6 @@ input[type="submit"] {
     display: flex;
     align-items: center;
     justify-content:space-between;
-   
 }
 .media-icon img{
     margin-left: 24px;
