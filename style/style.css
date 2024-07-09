@@ -20,6 +20,20 @@ body{
     font-weight: 600;
     line-height: 23px;
     text-align: center;
+    cursor: pointer;
+}
+.lern-btn{
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    padding: 12px 20px 12px 20px;
+}
+.lern-btn a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
 }
 
 /* Navbar style */
@@ -94,3 +108,73 @@ body{
     margin: 30px 0 44px;
 }
 
+/* web development section Style */
+.web-dev-section{
+    max-width: 1516px;
+    margin:74px auto 88px;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    
+}
+.web-dev-section .container{
+    max-width: 1258px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0px 80px 0px;
+}
+.container .web-dev-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.web-dev-description {
+    max-width: 1133px;
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin: 24px 0 48px;
+
+}
+.container .contents-box{
+    max-width: 1258px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin-bottom: 48px;
+}
+.container .contents-box .contents{
+    width:1130px ;
+    padding: 48px;
+}
+.contents-box .contents{
+    display: flex;
+    justify-content: space-between;
+}
+.web-dev-content{
+    text-align: left;
+}
+.web-dev-content .web-title{
+    max-width: 518px;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.web-dev-content .web-des{
+    max-width: 622px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin: 16px 0 32px;
+
+}
