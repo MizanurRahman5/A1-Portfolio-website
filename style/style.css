@@ -37,10 +37,10 @@ body{
     color: rgb(13, 19, 33);
 }
 
-/* Navbar style */
+/* Navbar section style */
 
 .navbar{
-    max-width: 1600px;
+    width: 1140px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,7 +51,6 @@ body{
     font-size: 28px;
     font-weight: 800;
     line-height: 33px;
-    letter-spacing: 0%;
     text-align: left;
 }
 
@@ -86,12 +85,11 @@ body{
     margin-top: 26px;
 }
 .banner .banner-title{
-    max-width: 1305px;
+    max-width: 1140px;
     color: rgb(13, 19, 33);
     font-size: 50px;
     font-weight: 800;
     line-height: 68px;
-    letter-spacing: 0%;
     text-align: center;
     margin: 30px 0 25px;
 }
@@ -101,12 +99,11 @@ body{
     font-size: 20px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: 0%;
     opacity: 0.7;
     text-align: center;
 }
 
-/* web development section Style */
+/* About me section Style */
 
 .web-dev-section{
     max-width: 1516px;
@@ -114,21 +111,19 @@ body{
     text-align: center;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-    
 }
 .banner-btn{
     margin: 32px 0 44px;
-border-radius: 8px;
-padding: 21px 24px 21px 24px;
-background: rgb(13, 19, 33);
+    border-radius: 8px;
+    padding: 21px 24px 21px 24px;
+    background: rgb(13, 19, 33);
 }
 .banner-btn a{
- color: rgb(255, 255, 255);
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
-
-text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-decoration: none;
 }
 .web-dev-section .container{
     max-width: 1258px;
@@ -144,7 +139,6 @@ text-decoration: none;
     font-size: 32px;
     font-weight: 800;
     line-height: 37px;
-    letter-spacing: 0%;
     text-align: center;
 }
 .web-dev-description {
@@ -195,8 +189,7 @@ text-decoration: none;
 .contents-box2 {
     max-width: 1258px;
     border-radius: 16px;
-
-background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     margin-bottom: 48px;
 }
 
@@ -204,14 +197,12 @@ background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0)
     width:1130px ;
     padding: 48px;
     display: flex;
-    
 }
 .contents-box2 .contents .web-dev-img{
     margin-right: 50px;
 }
 
-
-/* My Inspiration section style */
+/*  Inspiration section style */
 
 .my-inspiration-section{
     text-align: center;
@@ -233,7 +224,6 @@ background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0)
     line-height: 26px;
     margin: 24px 0 48px;
     opacity: 0.7;
-
 }
 .description{
     color: rgb(13, 19, 33);
@@ -251,11 +241,10 @@ background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0)
     border-radius: 16px;
     padding: 32px;
     margin-bottom: 150px;
-
 }
 
 
-/* target section style */
+/* my target section style */
 .my-target-section{
     display: flex;
     flex-direction: column;
@@ -361,6 +350,8 @@ background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0)
 }
 
 /* footer section style */
+
+/* Support section style */
 #support {
     max-width: 1516px;
     background-image: linear-gradient(188.00deg, rgb(52, 52, 52) -19.5%, rgba(248, 248, 248, 0.123) 100%), url('../assets/handshake.jpg');
